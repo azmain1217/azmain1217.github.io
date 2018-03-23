@@ -115,7 +115,7 @@ margin-left: 20px;
 }
 .projectsection {
   color: #606060;
-  min-height: 430px;
+  min-height: 500px;
   margin-top: 20px;
 }
 .skillssection {
@@ -141,7 +141,7 @@ margin-left: 20px;
   float: inherit;
 }
 #projref {
-padding-bottom: 30px;
+padding-bottom: 90px;
 }
 .btn {
 background-color: gray;
