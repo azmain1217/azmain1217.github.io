@@ -113,6 +113,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 20px;
   text-align: justify;
   text-justify: inter-word;
+  margin-bottom: 40px;
 }
 .skillssection {
   min-height: 500px;
@@ -141,6 +142,14 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #projref {
 padding-bottom: 70px;
+}
+.projtext {
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.skillstext {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .btn {
 background-color: gray;
