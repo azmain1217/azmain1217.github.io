@@ -10,12 +10,12 @@ background-color: #D3D3D3;
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #696969;
+  background-color: #9E9E9E;
   color: white;
   cursor: pointer;
   padding: 17px;
   border-radius: 50%;
-  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 transition: 0.2s;
   transition-timing-function: ease;
 
@@ -23,7 +23,7 @@ transition: 0.2s;
 
 #myBtn:hover {
   background-color: #1E88E5;
-   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 transition: 0.2s;
   transition-timing-function: ease;
@@ -31,12 +31,6 @@ transition: 0.2s;
 }
 .navbar {
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-#myNav {
-  Padding-left: 70px;
-}
-#navtog {
-margin-left: 20px;
 }
 .nav-link {
   transition: 0.3s;
@@ -115,8 +109,10 @@ margin-left: 20px;
 }
 .projectsection {
   color: #606060;
-  min-height: 500px;
+  min-height: 430px;
   margin-top: 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .skillssection {
   min-height: 500px;
@@ -124,7 +120,6 @@ margin-left: 20px;
 }
 .prof {
   float: left;
-  overflow: auto;
 }
 #profimg {
   padding-bottom: 20px;
@@ -136,12 +131,16 @@ margin-left: 20px;
 }
 .skillscols {
   padding-bottom: 35px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 #abttext {
   float: inherit;
+  text-align: justify;
+  text-justify: inter-word;
 }
 #projref {
-padding-bottom: 90px;
+padding-bottom: 70px;
 }
 .btn {
 background-color: gray;
@@ -268,6 +267,7 @@ color: #707070;
 transition: 0.3s;
   transition-timing-function: ease;
   margin: 5px;
+cursor: pointer;
 }
 
 #skills2 {
@@ -283,6 +283,7 @@ color: #707070;
 transition: 0.3s;
   transition-timing-function: ease;
   margin:5px;
+cursor: pointer;
 }
 #skills3 {
 color: #707070;
@@ -297,6 +298,7 @@ color: #707070;
 transition: 0.3s;
   transition-timing-function: ease;
 margin: 5px;
+cursor: pointer;
 }
 #proj1 {
 color: #707070;
@@ -304,7 +306,7 @@ color: #707070;
 transition: 0.3s;
   transition-timing-function: ease;
   margin: 5px;
-
+padding-bottom: 30px;
 }
 #proj1:hover {
 color: #707070;
@@ -312,6 +314,7 @@ color: #707070;
 transition: 0.3s;
   transition-timing-function: ease;
   margin: 5px;
+cursor: pointer;
 
 }
 
@@ -321,6 +324,7 @@ color: #707070;
 transition: 0.3s;
   transition-timing-function: ease;
   margin: 5px;
+  padding-bottom: 40px;
 
 }
 #proj2:hover {
@@ -329,10 +333,11 @@ color: #707070;
 transition: 0.3s;
   transition-timing-function: ease;
   margin: 5px;
+cursor: pointer;
 
 }
 
-#gitbut {
+.btn#gitbut {
   background-color: white;
   color: #6e5494;
   border-color: #6e5494;
@@ -340,8 +345,11 @@ transition: 0.3s;
   padding-right: 15px;
   padding-top: 8px;
   padding-bottom: 8px;
+text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
-#gitbut:hover {
+.btn#gitbut:hover {
   background-color: #6e5494;
   color: white;
   box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19);
@@ -375,6 +383,11 @@ transition: 0.3s;
   box-shadow: 5px 10px 18px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19);
   transition: 0.3s;
   transition-timing-function: ease;
+}
+.footersection {
+  width: 100%;
+  height: 100%;
+  color: #505050;
 }
 .footer {
 background-color: red;
