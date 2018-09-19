@@ -1,5 +1,9 @@
 body {
   background-color: #D3D3D3;
+background-image: url("pic2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 .container {
   font-family: 'Poppins', sans-serif;
@@ -10,8 +14,6 @@ body {
 }
 .sectionhead {
 	font-family: 'Poppins', sans-serif;
-	
-
 }
 #myBtn {
   display: none;
@@ -54,9 +56,6 @@ background-color: #AA3939 !important;
 	border-bottom: 2px solid white;
 }
 .testimg {
-  background-image: url("pic1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   min-height: 510px;
   margin-top: -25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -116,22 +115,19 @@ background-color: #AA3939 !important;
 }
 .abtsection {
   min-height: 500px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  color: #606060;
+}
 
+.skillssection {
+  min-height: 500px;
+  padding-top: 35px;
+  color: #606060;
 }
 .projectsection {
-  color: #606060;
   min-height: 430px;
   margin-top: 20px;
   text-align: justify;
   text-justify: inter-word;
   margin-bottom: 40px;
-}
-.skillssection {
-  min-height: 500px;
-  color: #606060;
 }
 #profimg {
   padding-bottom: 20px;
@@ -141,10 +137,8 @@ background-color: #AA3939 !important;
 .profi {
   text-align: center;
 }
-.abtcols {
-  color: #606060;
-}
 .skillscols {
+  padding-top: 35px;
   padding-bottom: 35px;
   text-align: justify;
   text-justify: inter-word;
@@ -185,7 +179,6 @@ h3 {
   text-align: center;
 }
 #aboutm {
-  color: #707070;
   font-size: 40px;
   font-weight: 700;
 }
