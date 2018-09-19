@@ -285,7 +285,6 @@ transition: 0.3s;
   transition-timing-function: ease;
 padding-bottom: 50px;
 margin: 5px;
-   position: relative;
 }
 .proj:hover {
 color: #707070;
@@ -300,6 +299,7 @@ cursor: pointer;
 	position: absolute;
 	right: 20px;
 	bottom: 20px;
+
 }
 .btn#gitbut {
   background-color: white;
@@ -309,9 +309,8 @@ cursor: pointer;
   padding-right: 15px;
   padding-top: 8px;
   padding-bottom: 8px;
-text-align: center;
+  text-align: center;
   text-decoration: none;
-  display: inline-block;
   border-radius: 65px;
 }
 .btn#gitbut:hover {
