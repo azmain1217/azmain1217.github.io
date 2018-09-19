@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/material.css">
@@ -20,7 +21,7 @@
 <nav id="mainnav" class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
 <div class="container">
 	<div id="navtog">
-  <button id="navtog" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <button id="navtog" class="navbar-toggler custom-tog" type="button" data-toggle="collapse" data-target="#myNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 </div>
@@ -44,8 +45,8 @@
 </nav>
 
 	<div class="testimg">
-  	<h1 class="sometext">SYED AZMAIN</h1>
-    <h6 class="headtxt">STUDENT | DEVELOPER | DESIGNER </h6>
+  	<h1 class="motto" id="nametxt">Syed Azmain</h1>
+    <h5 class="motto" id="headtxt">Front End Developer & Designer </h6>
   	<div id="myNav" class="learnbutton">
   	  <a href="#aboutm" class="btn btn-primary" id="learnbutt">ABOUT ME</a>
   	</div>
@@ -64,19 +65,20 @@
        <div class="container">
          <div id="abtcard" class="card">
            <div class="card-body">
-           <h3 >ABOUT ME</h3>
+           <h3 >About Me</h3>
        <div class="abtcols">
            <div class="row">
                 <div class="col">
-                     <p id="abttext"><img id="profimg" src="images/me.JPG" alt="Picture of me" style="max-width: 300px;height:auto;">
-                        My name is Syed Azmain and I am currently a student in my last year of Undergraduate studies at Brooklyn College studying Computer Science.
+                     <p class="profi" ><img id="profimg" src="images/me.JPG" alt="Picture of me"></p>
+                     <p id="abttext">
+                        My name is Syed and I am a graduate of Brooklyn College with a Bachelor's Degree in Computer Science.
                         You might be on this page to find out a little more about who I am, rather than just browsing my website of an "unknown" person.
                         I love staying on top of gadetries and all-things-tech related topics.
                         During my free time, I code and learn new things, such as new programming languages, new and upcoming technology. I am also open to new ideas and feedback. If you have any questions, feel free to contact
                         me through email or connecting through any of my social media links below.
                       </p>
                          <a href="Syed_Resume.pdf" class="btn btn-primary" id="ResDown" download>
-                           DOWNDLOAD RESUME
+                           Download Resume
                          </a>
                 </div>
            </div>
@@ -91,7 +93,7 @@
    <div class="container">
      <div id="workcard" class="card">
        <div class="card-body">
-       <h3 >SKILLS</h3>
+       <h3 >Skills</h3>
 
        <div class="skillscols">
            <div class="row">
@@ -140,7 +142,7 @@
      <div id="contactcard" class="card">
        <div class="card-body">
 
-       <h3>PROJECTS</h3>
+       <h3>Projects</h3>
 <div class="container">
 <div id="projref" class="row">
   <p class="projtext" > My recent works and projects can be found in this section. Here, I am showcasing an Android application that a couple of group members and I have developed
@@ -172,23 +174,22 @@
 </div>
 </div>
 </div>
-<div class="container">
 <div class="footersection">
-  <div id="socialcol" class="col">
-	<a href="mailto:12syed17@gmail.com" class"emails"><i class="fa fa-envelope"></i></a>
-        <a href="http://www.facebook.com/azmain1217" class="facebook"><i class="fa fa-facebook"></i></a>
+  <footer>
+    <div class="social container">
+      <span class="socialcol" class="col">
+	     <a href="mailto:12syed17@gmail.com" class"emails"><i class="fa fa-envelope"></i></a>
+       <a href="http://www.facebook.com/azmain1217" class="facebook"><i class="fa fa-facebook"></i></a>
        <a href="http://www.twitter.com/sighed_a" class="twitter"><i class="fa fa-twitter"></i></a>
        <a href="http://www.instagram.com/syedazmain" class="instagram"><i class="fa fa-instagram"></i></a>
        <a href="http://www.linkedin.com/in/syedazmain" class="linkedin"><i class="fa fa-linkedin"></i></a>
-  </div>
-</div>
+     </span>
+     <p id="copyright">© 2018 Syed Azmain. All rights Reserved. Student and Developer.</p>
+   </div>
+ </footer>
 </div>
 
-<div class="container">
- <footer>
-  <p>&#169; 2018 Syed Azmain. All rights Reserved. Student and Developer.</p>
-</footer>
-</div>
+</body>
 
 <script>
 jQuery(document).ready(function($){
@@ -230,7 +231,4 @@ $('body').scrollspy({target: ".navbar", offset: 100});
   });
 });
 </script>
-
-  </body>
-
 </html>
