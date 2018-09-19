@@ -256,6 +256,14 @@ border-color: white;
 border-style: solid;
 border-width: 0.5px;
 }
+.fa-phone:hover {
+background: white;
+color:#1799F9;
+border-color: white;
+border-style: solid;
+border-width: 0.5px;
+}
+
 #nametxt {
     text-align: center;
 }
