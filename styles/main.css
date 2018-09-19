@@ -1,11 +1,16 @@
 body {
-background-color: #D3D3D3;
+  background-color: #D3D3D3;
 }
 .container {
   font-family: 'Poppins', sans-serif;
 }
 .btn {
  font-family: 'Poppins', sans-serif;
+
+}
+.sectionhead {
+	font-family: 'Poppins', sans-serif;
+	
 
 }
 #myBtn {
@@ -117,6 +122,8 @@ background-color: #AA3939 !important;
   min-height: 500px;
   margin-bottom: 20px;
   margin-top: 20px;
+  color: #606060;
+
 }
 .projectsection {
   color: #606060;
