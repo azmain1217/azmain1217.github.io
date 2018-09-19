@@ -28,17 +28,13 @@ body {
   padding: 17px;
   border-radius: 50%;
   box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-transition: 0.2s;
-  transition-timing-function: ease;
-
 }
 
 #myBtn:hover {
   background-color: #AA3939;
   color: white;
   box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition: 0.2s;
-  transition-timing-function: ease;
+transition: 0.2s ease-in-out;
 }
 .navbar {
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -408,5 +404,8 @@ text-align: center;
   color: white;
   background-color: #AA3939;
   box-shadow: 0 -4px 8px 0px rgba(0,0,0,0.2);
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+
 }
 
