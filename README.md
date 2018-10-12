@@ -6,4 +6,4 @@ My Personal Website
 ![](/images/page3.PNG)
 
 ## The following images from on mobile (Pixel XL)
-<img src= 'mpage1.png' width=300 /> ![](/images/mpage2.png) ![](/images/mpage3.png)
+<img src= '/images/mpage1.png' width=300 /> <img src= '/images/mpage2.png' width=300 /> <img src= '/images/mpage3.png' width=300 />
