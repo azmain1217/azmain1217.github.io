@@ -58,6 +58,8 @@ background-color: #AA3939 !important;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .shadow-header {
+  transition: 0.3s;
+  transition-timing-function: ease; 
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
 }
 .testimg h1 {
@@ -118,9 +120,10 @@ background-color: #AA3939 !important;
   padding-bottom: 20px;
   margin-top: 20px;
   background-color: white;
+  color: #aa3939;
 }
 .projectsection {
-  color: #606060;
+  color: #aa3939;
   min-height: 430px;
   padding-top: 20px;
   text-align: justify;
@@ -144,9 +147,6 @@ background-color: #AA3939 !important;
 }
 .profi {
   text-align: center;
-}
-.abtcols {
-  color: #606060;
 }
 .skillscols {
   padding-bottom: 35px;
@@ -287,7 +287,6 @@ margin: 5px;
 cursor: pointer;
 }
 #proj1 {
-color: #707070;
 /*  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19); */
 transition: 0.3s;
   transition-timing-function: ease;
@@ -307,7 +306,6 @@ cursor: pointer;
 }
 
 #proj2 {
-color: #707070;
 /*  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19); */
 transition: 0.3s;
   transition-timing-function: ease;
@@ -328,8 +326,8 @@ cursor: pointer;
 }
 
 .btn#gitbut {
-  background-color: white;
-  color: #aa3939;
+  background-color: #aa3939;
+  color: white;
   border-color: #aa3939;
   padding-left: 15px;
   padding-right: 15px;
@@ -340,9 +338,9 @@ text-align: center;
   display: inline-block;
 }
 .btn#gitbut:hover {
-  background-color: #aa3939;
-  border-color: white;
-  color: white;
+  Border-color: white;
+  background-color: white;
+  color: #aa3939;
 }
 /* #workcard { */
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19); */
