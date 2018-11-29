@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/material.css">
+     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -74,11 +75,10 @@
                 <div class="col">
                      <p class="profi" ><img id="profimg" src="images/me.JPG" alt="Picture of me"></p>
                      <p id="abttext">
-                        My name is Syed and I am  a graduate of Brooklyn College with a Bachelor's Degree in Computer Science.
+                        My name is Syed and I graduated from Brooklyn College in May 2018 with a Bachelor of Science in Computer Science.
                         You might be on this page to find out a little more about who I am, rather than just browsing my website of an "unknown" person.
                         I love staying on top of gadetries and all-things-tech related topics.
-                        During my free time, I code and learn new things, such as new programming languages, new and upcoming technology. I am also open to new ideas and feedback. If you have any questions, feel free to contact
-                        me through email or connecting through any of my social media links below.
+                        During my free time, I like experimenting with new web development techniques,and go beyond my comfort zone to learn new things that I have not used before, and to stay up-to-date with the latest technology. I also love going on weekend getaways and going on road trips. I am also open to new ideas and feedback. If you have any questions, feel free to contact me through <a href="mailto:12syed17@gmail.com" id="abtemail" class"emails abtlinks">email</a> and connecting through <a href="http://www.linkedin.com/in/syedazmain" id="abtlink"class="abtlinks linkedin">LinkedIn.</a>
                       </p>
                          <a href="Syed_Resume.pdf" class="btn btn-primary" id="ResDown" download>
                            Download Resume
@@ -109,24 +109,35 @@
 <div id="skillscard1" class="col" style="width: 18rem;">
 
    <div id="skills1" class="card-body" >
-      <h5 class="card-title">Programming and Front-End Languages:</h5>
-         <p class="card-text">C++, Java, Oracle SQL, JavaScript, HTML, CSS.</p>
+      <h5 class="skillhead card-title"><i id="codelang" class='fas fa-code-branch' style='font-size:24px'></i> Programming Languages</h5>
+	    <h5><i class='fas fa-terminal' style='font-size:22px'></i> Software Development </h5>
+	    <p class="skillsp softskills" >C++, Java, Oracle SQL</p>
+	    <h5> <i class='fas fa-code' style='font-size:22px'></i> Web Development </h5>
+	    <p id="webskills" class="skillsp">HTML, CSS, Javascript, BootStrap, JQuery</p>
    </div>
 </div>
 
 <div id="skillscard2" class="col" class="card" style="width: 18rem;">
 
    <div id="skills2" class="card-body">
-      <h5 class="card-title">Operating Systems:</h5>
-        <p class="card-text">Android, iOS, Unix/Linux, IBM Mainframe, Windows, Mac OS</p>
+      <h5 class="skillhead card-title"><i class='fas fa-power-off' style='font-size:22px'></i> Operating Systems</h5>
+        <h5 ><i id="mobileos" class='fas fa-mobile-alt' style='font-size:22px'></i>Mobile </h5>
+           <p  class="skillsp" >Android, iOS</p>
+           <h5><i class='fas fa-desktop' style='font-size:22px'></i> Desktop </h5>
+           <p class="skillsp">IBM Mainframe, Mac OS, Unix/Linux, Windows </p>
    </div>
 </div>
 
 <div id="skillscard3" class="col" class="card" style="width: 18rem;">
 
     <div id="skills3" class="card-body" >
-      <h5 class="card-title">Tools:</h5>
-          <p class="card-text">Android Studio, Eclipse, GitHub, Microsoft Office Suite, CA Workload Automation DE</p>
+      <h5 class="skillhead card-title"><i class='fas fa-wrench' style='font-size:22px'></i> Tools</h5>
+           <h5><i class='fas fa-terminal' style='font-size:22px'></i> Software Developement</h5>
+           <p  class="skillsp softskills" >Android Studio, Atom Editor, Eclipse, Github</p>
+           <h5><i class='fas fa-chart-line' style='font-size:22px'></i> Data Analytics</h5>
+           <p class="skillsp">Tableau, Microsoft Power BI, Google Analytics, Salesforce </p>
+           <h5><i class='far fa-window-maximize' style='font-size:22px'></i> Applications</h5>
+          <p class="skillsp">Microsoft Office Suite, CA Workload Automation DE</p>
     </div>
 </div>
 </div>
@@ -146,7 +157,7 @@
      <div id="contactcard">
        <div class="card-body">
 
-       <h3 class="sections">Projects</h3>
+       <h3 class="sections">Portfolio</h3>
 <div class="container">
 <div id="projref" class="row">
   <p class="projtext" > My recent works and projects can be found in this section. Here, I am showcasing an Android application that a couple of group members and I have developed
@@ -155,7 +166,7 @@
        <div id="projcard1" class="col" class="card" style="width: 18rem;">
 
    <div id="proj1" class="card-body" >
-      <h5 class="card-title">Scan 2 Go</h5>
+      <h5 class="card-title"><i class='fas fa-barcode' style='font-size:24px'></i> Scan 2 Go</h5>
         <p class="card-text">
  Developed an Android application by using the OCR API, that converts handwritten text to machine-readable text and by detecting the type of information captured, displays relevant applications. </p>
    <a href="https://github.com/azmain1217/Scan2Go" class="btn btn-primary" id="gitbut" >CHECK OUT SCAN2GO</a>
@@ -165,9 +176,21 @@
  <div id="projcard2" class="col" class="card" style="width: 18rem;">
 
    <div id="proj2" class="card-body" >
-      <h5 class="card-title">Statistics Calculator</h5>
+      <h5 class="card-title"><i class='fas fa-calculator' style='font-size:24px'></i> Statistics Calculator</h5>
         <p class="card-text">A very simple program that calculates statistical information based on data provided by the user. Statistical information include: sum, average, variance, and standard deviation!</p>
    <a href="https://github.com/azmain1217/Statistics-Program" class="btn btn-primary" id="gitbut" >CHECK OUT STATISTICS PROGRAM</a>
+   </div>
+</div>
+
+
+
+       <div id="projcard3" class="col" class="card" style="width: 18rem;">
+
+   <div id="proj3" class="card-body" >
+       <h5 class="card-title"><i class='far fa-file-code' style='font-size:24px'></i> Brooklyn College Computer Science Club Website</h5>
+        <p class="card-text">
+ Developed an Android application by using the OCR API, that converts handwritten text to machine-readable text and by detecting the type of information captured, displays relevant applications. </p>
+   <a href="https://github.com/azmain1217/Scan2Go" class="btn btn-primary" id="gitbut" >CHECK OUT BC CS Club Website</a>
    </div>
 </div>
 </div>
