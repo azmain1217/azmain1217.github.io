@@ -126,8 +126,6 @@ background-color: #AA3939 !important;
   color: #aa3939;
   min-height: 430px;
   padding-top: 20px;
-  text-align: justify;
-  text-justify: inter-word;
   margin-bottom: 40px;
   box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2)
 }
@@ -150,15 +148,37 @@ background-color: #AA3939 !important;
 }
 .skillscols {
   padding-bottom: 35px;
-  text-align: justify;
-  text-justify: inter-word;
 }
 #abttext {
   float: inherit;
-  text-align: justify;
-  text-justify: inter-word;
   padding-left: 20px;
   padding-right: 20px;
+}
+#abtemail {
+text-decoration: none;
+  color: #aa3939;
+  transition: 0.1s;
+  transition-timing-function: ease-in-out;
+}
+#abtemail:hover{
+color: black;
+  border-bottom: 2px solid #aa3939;
+  transition: 0.1s;
+  transition-timing-function: ease-in-out;
+
+}
+#abtlink {
+  text-decoration: none;
+  color: #aa3939;
+  transition: 0.1s;
+  transition-timing-function: ease-in-out;
+
+}
+#abtlink:hover {
+  color: black;
+  border-bottom: 2px solid #aa3939;
+  transition: 0.1s;
+  transition-timing-function: ease-in-out;
 }
 #projref {
 padding-bottom: 70px;
@@ -170,6 +190,21 @@ padding-bottom: 70px;
 .skillstext {
   padding-left: 20px;
   padding-right: 20px;
+}
+.skillsp {
+padding-left: 30px;
+}
+.softskills {
+  padding-left: 35px;
+}
+#webskills {
+  padding-left: 33px;
+}
+#mobileos {
+  margin-right: 15px;
+}
+#codelang {
+margin-right: 9px;
 }
 .btn {
 background-color: gray;
@@ -262,30 +297,17 @@ border-width: 0.5px;
 .motto {
   font-family: 'Poppins', sans-serif;
 }
+.skillhead {
+ font-size: 22px;
+}
 #skills1 {
-/*  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19); */
- margin: 5px;
-}
-#skills1:hover {
-cursor: pointer;
-}
+/*  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19); */}
 
 #skills2 {
 /*  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19); */
-  margin: 5px;
-}
-#skills2:hover {
-  margin:5px;
-cursor: pointer;
 }
 #skills3 {
-/*  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19); */
-margin: 5px;
-}
-#skills3:hover {
-margin: 5px;
-cursor: pointer;
-}
+/*  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19); */}
 #proj1 {
 /*  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19); */
 transition: 0.3s;
@@ -314,6 +336,26 @@ transition: 0.3s;
 
 }
 #proj2:hover {
+color: white;
+background-color: #AA3939;
+border-radius: 3px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19);
+transition: 0.3s;
+  transition-timing-function: ease;
+  margin: 5px;
+cursor: pointer;
+
+}
+
+#proj3 {
+/*  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19); */
+transition: 0.3s;
+  transition-timing-function: ease;
+  margin: 5px;
+  padding-bottom: 40px;
+
+}
+#proj3:hover {
 color: white;
 background-color: #AA3939;
 border-radius: 3px;
