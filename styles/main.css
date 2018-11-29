@@ -134,6 +134,7 @@ background-color: #AA3939 !important;
   color: white;
   background-color: #AA3939;
   box-shadow: 0 -4px 8px 0px rgba(0,0,0,0.2);
+  position: relative;
 }
 .prof {
   float: left;
@@ -149,6 +150,7 @@ background-color: #AA3939 !important;
 .skillscols {
   padding-bottom: 35px;
 }
+
 #abttext {
   float: inherit;
   padding-left: 20px;
@@ -202,9 +204,6 @@ padding-left: 30px;
 }
 #mobileos {
   margin-right: 15px;
-}
-#codelang {
-margin-right: 9px;
 }
 .btn {
 background-color: gray;
@@ -300,14 +299,6 @@ border-width: 0.5px;
 .skillhead {
  font-size: 22px;
 }
-#skills1 {
-/*  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19); */}
-
-#skills2 {
-/*  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19); */
-}
-#skills3 {
-/*  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19); */}
 #proj1 {
 /*  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19); */
 transition: 0.3s;
@@ -384,10 +375,6 @@ text-align: center;
   background-color: white;
   color: #aa3939;
 }
-/* #workcard { */
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19); */
-/*  transition: 0.3s; */
-/*  transition-timing-function: ease; */
 .footersection {
   padding-bottom: 60px;
   padding-top: 60px;
