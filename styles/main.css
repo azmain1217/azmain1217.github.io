@@ -32,7 +32,9 @@ Padding-bottom: 40px;
 #skillscard2 {
 Padding-bottom: 40px;
 }
-
+.skills {
+Margin: 5px;
+}
 #myBtn:hover {
   background-color: #AA3939;
   color: white;
@@ -300,6 +302,11 @@ border-width: 0.5px;
 }
 .skillhead {
  font-size: 22px;
+ border-bottom: 3px solid white;
+ padding-bottom: 6px;
+}
+.subskills {
+font-size: 19px;
 }
 #proj1 {
 /*  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19); */
