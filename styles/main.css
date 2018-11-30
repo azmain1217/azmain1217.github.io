@@ -26,8 +26,11 @@ transition: 0.2s;
   transition-timing-function: ease;
 
 }
-#skillscard1 {
-border-bottom: 2px solid #aa3939;
+#skillscard1{
+Padding-bottom: 40px;
+}
+#skillscard2 {
+Padding-bottom: 40px;
 }
 
 #myBtn:hover {
