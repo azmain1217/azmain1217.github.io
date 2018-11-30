@@ -302,7 +302,7 @@ border-width: 0.5px;
 /*  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19); */
 transition: 0.3s;
   transition-timing-function: ease;
-  margin: 5px;
+  margin: 2px;
 padding-bottom: 30px;
 }
 #proj1:hover {
@@ -312,18 +312,31 @@ border-radius: 3px;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19);
 transition: 0.3s;
   transition-timing-function: ease;
-  margin: 5px;
 cursor: pointer;
 
+}
+#scanapp {
+  Text-decoration: none;
+color: #aa3939;
+
+}
+#scanapp:hover {
+Color:white;
+}
+#statsapp {
+  Text-decoration: none;
+  color: #aa3939;
+}
+#statsapp:hover {
+ Color:white;
 }
 
 #proj2 {
 /*  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19); */
 transition: 0.3s;
   transition-timing-function: ease;
-  margin: 5px;
+  margin: 2px;
   padding-bottom: 40px;
-
 }
 #proj2:hover {
 color: white;
@@ -332,27 +345,25 @@ border-radius: 3px;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19);
 transition: 0.3s;
   transition-timing-function: ease;
-  margin: 5px;
 cursor: pointer;
 
 }
 
-#proj3 {
+#projcard3 {
 /*  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19); */
 transition: 0.3s;
   transition-timing-function: ease;
   margin: 5px;
-  padding-bottom: 40px;
+  padding: 10px; 
 
 }
-#proj3:hover {
+#projcard3:hover {
 color: white;
 background-color: #AA3939;
 border-radius: 3px;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19);
 transition: 0.3s;
   transition-timing-function: ease;
-  margin: 5px;
 cursor: pointer;
 
 }
