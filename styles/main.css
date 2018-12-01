@@ -67,7 +67,7 @@ background-color: #AA3939 !important;
 }
 .shadow-header {
   transition: 0.3s;
-  transition-timing-function: ease; 
+  transition-timing-function: ease;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
 }
 .testimg h1 {
@@ -197,11 +197,28 @@ padding-bottom: 70px;
    padding-left: 20px;
    padding-right: 20px;
 }
-.skillsp {
-padding-left: 30px;
-}
 .softskills {
-  padding-left: 35px;
+  margin-left: 35px;
+}
+.chipp {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 3px;
+  margin-top: 7px;
+  transition: 0.1s;
+  transition-timing-function: ease-in;
+}
+.chipp:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #aa3939;
+  transition: 0.1s;
+  transition-timing-function: ease-in;
 }
 #webskills {
   padding-left: 33px;
@@ -364,7 +381,7 @@ cursor: pointer;
 transition: 0.3s;
   transition-timing-function: ease;
   margin: 5px;
-  padding: 10px; 
+  padding: 10px;
 
 }
 #projcard3:hover {
