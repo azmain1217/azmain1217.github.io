@@ -25,11 +25,15 @@
 <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="material-icons">keyboard_arrow_up</i></button>
 <nav id="mainnav" class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
 <div class="container">
-	<div id="navtog">
-  <button id="navtog" class="navbar-toggler custom-tog" type="button" data-toggle="collapse" data-target="#myNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<div class="menubar" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
 </div>
+  </button>
+
   <div class="collapse navbar-collapse" id="myNav">
     <ul class="navbar-nav">
       <li class="nav-item">
@@ -51,10 +55,11 @@
 
 	<div class="testimg">
     <div class="container">
+      <p class="profi" ><img id="profimg" src="images/me.JPG" alt="Picture of me"></p>
   	<h1 class="motto" id="nametxt">Syed Azmain</h1>
     <h3 class="motto" id="headtxt">Front End Web Developer</h6>
   	<div id="myNav" class="learnbutton">
-  	  <a href="#aboutm" class="btn btn-primary" id="learnbutt">ABOUT ME</a>
+  	  <a href="#aboutm" class="btn btn-primary" id="learnbutt"><i class='far fa-address-card'></i> <span> About Syed</span></a>
   	</div>
   </div>
 	</div>
@@ -72,18 +77,16 @@
        <div class="container">
          <div id="abtcard" >
            <div class="card-body">
-           <h3 class="sections" >About Me</h3>
        <div class="abtcols">
            <div class="row">
                 <div class="col">
-                     <p class="profi" ><img id="profimg" src="images/me.JPG" alt="Picture of me"></p>
                      <p id="abttext">
-                        My name is Syed and I graduated from Brooklyn College in May 2018 with a Bachelor of Science in Computer Science.
-                        Currently working at a financial agency for the City of New York that testing payroll applications on the mainframe that are processed for all NYC employees and developing SQL queries to automate manual agency tasks.
+                        My name is Syed and I graduated from Brooklyn College with a B.S. in Computer Science.
+                        Currently I'm working at a financial agency for the City of New York testing payroll applications on the mainframe that are processed for all NYC employees and developing SQL queries to automate manual agency tasks.
                         During my college years I have developed an Android application after attending a CUNY Hackathon in 2017 and have created a website for the Brooklyn College Computer Science club for students to be up-to-date with the latest events on campus. As someone who's keen on design, visual aesthetics, functionality, I've been more interested in Web Design/Development and am working on honing my skills in HTML, CSS, and JavaScript as well as learning about UX/UI Design. As a result I have used applications such as Adobe Photoshop and Illustrator to design applications or websites.
 
                     <p id="abttext">
-                      One of my favorite design languages that I like implementing into my projects is Google's Material Design components and elements because of the rich interactivity that it provides, as well as the visually pleasing elements incorporated into it.
+                      One of my favorite design languages that I enjoy integrating into my projects is Google's Material Design components and elements because of the rich visually pleasing interactivity that it provides, as well as the naturally flowing motions that mimic the real world, incorporated into it.
                       Down below, you'll find Github links to the projects that I have worked on.
                         Besides my technical interests, I do love reading articles every day about the latest gadgetries, technological trends, as well as design trends. I love going on weekend getaways and road trips. If you have any questions, feel free to contact me via <a href="mailto:12syed17@gmail.com" id="abtemail" class"emails abtlinks">email</a> and connecting through <a href="http://www.linkedin.com/in/syedazmain" id="abtlink"class="abtlinks linkedin">LinkedIn.</a>
                     </p>
@@ -114,7 +117,7 @@
       <h4 class="skillhead"><i  class='fas fa-code-branch' ></i> Coding Languages</h4>
 	    <h5 class="subskills"><i class='fas fa-terminal' style='font-size:22px'></i> Software Development</h5>
       <div class="softskills">
-	     <span class="chipp" >C++</span> <span class="chipp">Java</span> <span class="chipp">Oracle</span>
+	     <span class="chipp" >C++</span> <span class="chipp">Java</span> <span class="chipp">Oracle SQL</span>
       </div>
 	    <h5 class="subskills"><i class='fas fa-code' style='font-size:22px'></i> Web Development </h5>
       <div class="softskills">
@@ -261,6 +264,10 @@ Developed an informative website for the Brooklyn College Computer Science Club 
 </body>
 
 <script>
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+
 jQuery(document).ready(function($){
     $(window).scroll(function(){
         if ($(this).scrollTop() > 50) {
