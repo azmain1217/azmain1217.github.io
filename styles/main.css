@@ -319,6 +319,7 @@ border-width: 0.5px;
 }
 .skillhead {
  font-size: 22px;
+ text-align: center;
  border-bottom: 3px solid white;
  padding-bottom: 6px;
 }
