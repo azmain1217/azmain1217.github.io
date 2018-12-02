@@ -47,7 +47,7 @@ Margin: 5px;
 background-color: #AA3939 !important;
 }
 #myNav {
-  margin-left: 10px;
+  margin-left: 5px;
 }
 .nav-link {
   transition: 0.3s;
@@ -271,7 +271,7 @@ h3 {
   transition: 0.2s;
   transition-timing-function: ease;
   border: 0px solid white;
-  margin-left: 10px;
+  margin-left: 5px;
   margin-top: 5px;
 }
 .fa {
