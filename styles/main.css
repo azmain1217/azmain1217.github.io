@@ -1,5 +1,5 @@
 html {
-  background-color: #c9c9c9;
+color: black;
 }
 .sections {
   font-family: 'Poppins', sans-serif;
@@ -17,7 +17,7 @@ html {
   border: none;
   outline: none;
   background-color: white;
-  color: #AA3939;
+  color: black;
   cursor: pointer;
   padding: 17px;
   border-radius: 50%;
@@ -36,15 +36,18 @@ Padding-bottom: 40px;
 Margin: 5px;
 }
 #myBtn:hover {
-  background-color: #AA3939;
+  background-color: black;
   color: white;
   box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: 0.2s;
   transition-timing-function: ease;
 }
+a {
+color: black !important;
+}
 .navbar {
-/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-background-color: #AA3939 !important;
+min-height: 42px !important;
+background-color: white !important;
 }
 #myNav {
   margin-left: 5px;
@@ -52,95 +55,131 @@ background-color: #AA3939 !important;
 .nav-link {
   transition: 0.3s;
   transition-timing-function: ease;
-  border-bottom: 2px solid #AA3939;
+  border-bottom:4px solid white;
 }
 .nav-link:hover {
   transition: 0.3s;
   transition-timing-function: ease;
-  border-bottom: 2px solid white;
+  border-bottom: 4px solid black;
 }
 .active.nav-link {
-	border-bottom: 2px solid white;
+border-bottom: 4px solid black;
 }
 .testimg {
-  background-color: #AA3939;
-  min-height: 600px;
+  background-color: white;
+  height: 100%;
   margin-top: -25px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
 }
 .shadow-header {
-  transition: 0.3s;
-  transition-timing-function: ease-in-out;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  
 }
 .testimg h1 {
-  color: white;
+  color: black;
 /*  margin-left: 20px;
   margin-right: 20px; */
 }
-.btn#learnbutt {
-  font-size: 14px;
-  background-color: transparent;
-  border-radius: 1px;
-  border-color: white;
-  margin-top: 15px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-weight: 300;
-}
 #headtxt {
-  color: white;
+  color: black;
 }
-.btn#learnbutt:hover {
-  background-color: white;
-  border-radius: 3px;
-  border-color: #AA3939;
-  color: #AA3939;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+#abtref {
+background-color: white;
+border-color: white;
 }
-
-#ResDown {
-  float: right;
+#downi {
+font-size:24px; background-color: white; color:black;border-bottom: white;box-shadow: none;
+transition: 0.2s;
+transition-timing-function: ease-in-out;
 }
-.btn#ResDown {
-  text-decoration: none;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  background: transparent;
-  color: #33CCFF;
-  border-color: #33CCFF;
-}
-.btn#ResDown:hover {
-  background-color: #33CCFF;
-  color:white;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.19);
+#downi:hover {
+font-size: 30px;
+t
 }
 .abtsection {
   min-height: 500px;
+  padding-top: 10px;
   padding-bottom: 20px;
-  margin-top: 20px;
   background-color: white;
-  color: #aa3939;
+  color: black;
+}
+#abtparas {
+   padding: 30px;
+border-radius: 7px;
+border-left: 10px solid white;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: all 0.3s cubic-bezier(0.5, 0.7, 0.7, 0.5);
+}
+#abtparas:hover {
+   background-color: white;
+   cursor: pointer;
+   border-radius: 7px;
+border-left: 10px solid black;
+  color: black;
+box-shadow: 10px 20px 35px rgba(0,0,0,0.25), 10px 20px 20px rgba(0,0,0,0.22);
 }
 .projectsection {
   color: #aa3939;
   min-height: 430px;
   padding-top: 20px;
   margin-bottom: 40px;
-  box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2)
 }
 .skillssection {
   min-height: 500px;
-  color: white;
-  background-color: #AA3939;
-  box-shadow: 0 -4px 8px 0px rgba(0,0,0,0.2);
+  color: black;
+  background-color: white;
   position: relative;
+}
+#skills1 {
+padding: 20px;
+padding-bottom: 35px;
+padding-top: 10px;
+border-radius: 7px;
+border-left: 10px solid white;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: all 0.3s cubic-bezier(0.5, 0.7, 0.7, 0.5);
+}
+#skills1:hover {
+ background-color: white;
+  cursor: pointer;
+border-left: 10px solid black;
+  color: black;
+box-shadow: 10px 30px 35px rgba(0,0,0,0.25), 10px 20px 20px rgba(0,0,0,0.22);
+}
+#skills2 {
+padding: 20px;
+border: 1px solid white;
+padding-bottom: 35px;
+padding-top: 10px;
+border-radius: 7px;
+border-left: 10px solid white;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: all 0.3s cubic-bezier(0.5, 0.7, 0.7, 0.5);
+}
+#skills2:hover {
+ background-color: white;
+  cursor: pointer;
+border-left: 10px solid black;
+  color: black;
+box-shadow: 10px 30px 35px rgba(0,0,0,0.25), 10px 20px 20px rgba(0,0,0,0.22);
+}
+#skills3 {
+border: 1px solid white;
+padding: 20px;
+padding-bottom: 35px;
+padding-top: 10px;
+border-radius: 7px;
+border-left: 10px solid white;
+box-shadow: 0 4px 15px 0 rgba(0,0,0,0.2);
+transition: all 0.3s cubic-bezier(0.5, 0.7, 0.7, 0.5);
+}
+#skills3:hover {
+ background-color: white;
+cursor: pointer;
+border-left: 10px solid black;
+  color: black;
+box-shadow: 10px 30px 35px rgba(0,0,0,0.25), 10px 20px 20px rgba(0,0,0,0.22);
 }
 #profimg {
   margin-top: 30px;
@@ -152,14 +191,13 @@ background-color: #AA3939 !important;
   padding-bottom: 35px;
 }
 
-#abttext {
+.abttext {
   float: inherit;
   padding-left: 20px;
   padding-right: 20px;
 }
 #abtemail {
 text-decoration: none;
-  color: #aa3939;
   transition: 0.1s;
   transition-timing-function: ease-in-out;
 }
@@ -172,7 +210,6 @@ color: black;
 }
 #abtlink {
   text-decoration: none;
-  color: #aa3939;
   transition: 0.1s;
   transition-timing-function: ease-in-out;
 
@@ -195,7 +232,7 @@ padding-bottom: 70px;
 }
 .chipp {
   display: inline-block;
-  border: 1px solid white;
+  border: 1px solid black;
   border-radius: 7px;
   padding-left: 10px;
   padding-right: 10px;
@@ -203,32 +240,19 @@ padding-bottom: 70px;
   padding-bottom: 5px;
   margin-right: 3px;
   margin-top: 7px;
-  transition: 0.1s;
-  transition-timing-function: ease-in;
 }
 .chipp:hover {
   cursor: pointer;
-  background-color: white;
-  color: #aa3939;
-  transition: 0.1s;
-  transition-timing-function: ease-in;
+  background-color: black;
+  color: white;
+transition: 0.1s;
+  transition-timing-function: ease-in-out;
 }
 #webskills {
   padding-left: 33px;
 }
 #mobileos {
   margin-right: 15px;
-}
-.btn {
-background-color: gray;
-border-radius: 2px;
-border-color: gray;
-}
-.btn:hover {
-background-color: white;
-border-radius: 2px;
-border-color: gray;
-color: gray;
 }
 h3 {
   text-align: center;
@@ -250,14 +274,14 @@ h3 {
 }
 .bar1, .bar2, .bar3 {
     width: 25px;
-    height: 4px;
-    background-color: white;
+    height: 3px;
+    background-color: black;
     margin: 4px 0;
     transition: 0.4s;
 }
 .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-7px, 4px);
-    transform: rotate(-45deg) translate(-7px, 4px);
+    -webkit-transform: rotate(-45deg) translate(-5px, 5px);
+    transform: rotate(-45deg) translate(-5px, 5px);
 }
 
 .change .bar2 {opacity: 0;}
@@ -283,10 +307,7 @@ h3 {
    text-decoration: none;
    transition: 0.3s;
    transition-timing-function: ease;
-   border-radius: 50%;
-   border-color: white;
-   border-style: solid;
-   border-width: 0.5px;
+   border-bottom: 3px solid black;
    margin: 5px 5px;
    color: white;
 }
@@ -295,22 +316,16 @@ h3 {
    transition: 0.4s;
    transition-timing-function: ease;
    box-shadow: 0 8px 13px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
-   border-radius: 50%;
+   border-bottom: 3px solid white;
 
 }
 .fa-linkedin:hover {
-  background: white;
-  Color: #007bb5;
-  border-color: white;
-  border-style: solid;
-  border-width: 0.5px;
+  color: white;
+border-bottom: 3px solid white;
 }
 .fa-envelope:hover {
-background: white;
-color:#808080;
-border-color: white;
-border-style: solid;
-border-width: 0.5px;
+color: white;
+border-bottom: 3px solid white;
 }
 .fa-address-card {
   margin-right: 4px;
@@ -322,7 +337,6 @@ border-width: 0.5px;
 .skillhead {
  font-size: 22px;
  text-align: center;
- border-bottom: 3px solid white;
  padding-bottom: 6px;
 }
 .subskills {
@@ -397,30 +411,11 @@ transition: 0.3s;
 cursor: pointer;
 
 }
-
-.btn#gitbut {
-  background-color: #aa3939;
-  color: white;
-  border-color: #aa3939;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-.btn#gitbut:hover {
-  Border-color: white;
-  background-color: white;
-  color: #aa3939;
-}
 .footersection {
-  padding-bottom: 60px;
+box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
+padding-bottom: 60px;
   padding-top: 60px;
   width: 100%;
-  height: 100%;
   color: white;
-  background-color: #AA3939;
-  box-shadow: 0 -4px 8px 0px rgba(0,0,0,0.2);
+  background-color:black;
 }
