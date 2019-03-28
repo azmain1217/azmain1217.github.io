@@ -1,5 +1,9 @@
 html {
+background-color: white;
 color: black;
+}
+body {
+font-family: 'Poppins', sans-serif;
 }
 .sections {
   font-family: 'Poppins', sans-serif;
@@ -7,6 +11,22 @@ color: black;
 .container {
   font-family: 'Poppins', sans-serif;
 }
+.trapezoid {
+       border-bottom: 70px solid #000000;
+       border-right: 55px solid transparent;
+      height: 0;
+      width: 100%;
+    box-shadow: -5px 8px 10px 0 rgba(0, 0, 0, 0.3), 0 8px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+#abthead, #skillshead {
+padding: 20px;
+padding-bottom: 16px;
+padding-left: 70px;
+font-size: 30px;
+color: white;
+}
+
 #myBtn {
   display: none;
   position: fixed;
@@ -99,9 +119,8 @@ t
 }
 .abtsection {
   min-height: 500px;
-  padding-top: 10px;
+  padding-top: 40px;
   padding-bottom: 20px;
-  background-color: white;
   color: black;
 }
 #abtparas {
@@ -126,9 +145,9 @@ box-shadow: 10px 20px 35px rgba(0,0,0,0.25), 10px 20px 20px rgba(0,0,0,0.22);
   margin-bottom: 40px;
 }
 .skillssection {
+  padding-top: 40px;
   min-height: 500px;
   color: black;
-  background-color: white;
   position: relative;
 }
 #skills1 {
@@ -409,7 +428,7 @@ cursor: pointer;
 
 }
 .footersection {
-box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0 -10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 padding-bottom: 60px;
   padding-top: 60px;
   width: 100%;
