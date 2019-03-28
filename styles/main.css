@@ -67,8 +67,7 @@ border-bottom: 4px solid black;
 }
 .testimg {
   background-color: white;
-  height: 100%;
-  margin-top: -25px;
+  min-height: 800px;
   text-align: center;
 }
 .shadow-header {
@@ -85,16 +84,17 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   color: black;
 }
 #abtref {
+margin-top: 100px;
 background-color: white;
 border-color: white;
 }
 #downi {
-font-size:24px; background-color: white; color:black;border-bottom: white;box-shadow: none;
+font-size:26px; background-color: white; color:black;border-bottom: white;box-shadow: none;
 transition: 0.2s;
 transition-timing-function: ease-in-out;
 }
 #downi:hover {
-font-size: 30px;
+font-size: 35px;
 t
 }
 .abtsection {
@@ -181,16 +181,13 @@ border-left: 10px solid black;
   color: black;
 box-shadow: 10px 30px 35px rgba(0,0,0,0.25), 10px 20px 20px rgba(0,0,0,0.22);
 }
-#profimg {
-  margin-top: 30px;
-  padding-bottom: 20px;
-  padding-right: 10px;
-  border-radius: 50%;
+img {
+ margin-top: 35stimgpx;
+ border-radius: 50%;
 }
 .skillscols {
   padding-bottom: 35px;
 }
-
 .abttext {
   float: inherit;
   padding-left: 20px;
