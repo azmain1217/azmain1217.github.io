@@ -11,7 +11,6 @@
     <meta http-equiv="Expires" content="0" />
 
     <!-- Bootstrap CSS -->
-  <link rel="icon" href="images/command-line.png" type="image/png" sizes="16x16">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/main.css">
@@ -19,6 +18,7 @@
      <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/command-line.png" type="image/png" sizes="16x16">
 
   </head>
 
@@ -108,18 +108,12 @@
 
 <div id="skillsm"></div>
 <div class = "skillssection">
-   <div class="container">
-     <div id="workcard">
-       <div class="card-body">
-
-       <div class="skillscols">
-           <div class="row">
-                <div class="col">
+<div class="card-body">
 <div class="container">
-<div id="skillsref" class="row">
-<div id="skillscard1" class="skills col-md" style="width: 25rem;">
+<div class="row">
+<div class="skills col" style="width: 25rem;">
 
-   <div id="skills1" >
+   <div id="skills1" class="allcards">
       <h4 class="skillhead"><i  class='fas fa-code-branch' ></i> Development</h4>
 	    <h5 class="subskills"><i class='fas fa-terminal' style='font-size:22px'></i> Application Development</h5>
       <div class="softskills">
@@ -132,9 +126,9 @@
    </div>
 </div>
 
-<div id="skillscard2" class="skills col-md"style="width: 25rem;">
+<div class="skills col"style="width: 25rem;">
 
-   <div id="skills2">
+   <div id="skills2" class="allcards">
       <h4 class="skillhead card-title"><i class='fas fa-power-off' style='font-size:22px'></i> Operating Systems</h4>
 
         <h5 class="subskills" ><i id="mobileos" class='fas fa-mobile-alt' style='font-size:22px'></i>Mobile </h5>
@@ -150,9 +144,9 @@
    </div>
 </div>
 
-<div id="skillscard3" class="skills col " style="width: 18rem;">
+<div class="skills col" style="width: 18rem;">
 
-    <div id="skills3">
+    <div id="skills3" class="allcards">
       <h4 class="skillhead card-title"><i class='fas fa-wrench' ></i> Tools</h4>
 
         <h5 class="subskills"><i class='fas fa-terminal' style='font-size:22px'></i> Software Development</h5>
@@ -168,15 +162,47 @@
 </div>
 </div>
 </div>
+</div>
+</div>
 
-           </div>
-       </div>
+<div class="trapezoid">
+<p id="projhead">Projects</p>
+</div>
 
-   </div>
+<div id="projectsm"></div>
+<div class = "projectsection">
+<div class="card-body">
+<div class="container">
+<div class="row">
+<div class="proj col" style="width: 25rem;">
+
+   <a href="https://github.com/azmain1217/Scan2Go" id="projlinks"><div id="proj1" class="allcards projcards">
+      <h4 class="projhead">Scan2Go</h4>
+      <p>Scan2Go is a simple application that uses the device camera to convert external text into to text dynamically displayed on device screen, distinguishing between phone numbers, emails, and website links.</p>
+   </div></a>
+</div>
+
+<div class="proj col"style="width: 25rem;">
+
+   <a href="https://github.com/azmain1217/FizzBuzz" id="projlinks"><div id="proj2" class="allcards projcards">
+     <h4 class="projhead">FizzBuzz Application</h4>
+     <p>FizzBuzz application that checks to see if numbers are divisible by 3, 5, or both.</p>
+   </div></a>
+</div>
+
+<div class="proj col" style="width: 18rem;">
+
+    <a href="https://bc-csclub.netlify.com/" id="projlinks"><div id="proj3" class="allcards projcards">
+      <h4 class="projhead">Brooklyn College Computer Science Club Website</h4>
+      <p>Developed an informational website for the Computer Science club at Brooklyn College using HTML, CSS, JavaScript, and Bootstrap </p>
+    </div></a>
+</div>
+</div>
+<div id="viewmore"><a href="https://github.com/azmain1217" id="viewhyper"><button id="viewbutton"><i style="font-size:17px; padding-right: 15px;" id="viewi" class="fa">&#xf101;</i>View More</button></a></div>
 </div>
 </div>
 </div>
-</div>
+
 <div class="footersection">
   <footer>
     <div class="social container">
@@ -184,7 +210,7 @@
 	     <a href="mailto:12syed17@gmail.com" class"emails"><i class="fa fa-envelope"></i></a>
        <a href="http://www.linkedin.com/in/syedazmain" class="linkedin"><i class="fa fa-linkedin"></i></a>
      </span>
-     <p id="copyright">&#169; 2018 Syed Azmain. All rights Reserved.</p>
+     <p id="copyright">&#169; 2018 Syed Azmain. All Rights Reserved.</p>
    </div>
  </footer>
 </div>
