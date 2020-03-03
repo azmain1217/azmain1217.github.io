@@ -1,3 +1,3 @@
 # Portfolio Website
 
-#### Copyright 2018 Syed Azmain. All Rights Reserved.
+#### Copyright 2020 Syed Azmain. All Rights Reserved.
