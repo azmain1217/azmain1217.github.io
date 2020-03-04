@@ -46,6 +46,9 @@
         <a id="nav-work" class="nav-link" href="#skillsm">Skills</a>
       </li>
       <li class="nav-item">
+        <a id="nav-work" class="nav-link" href="#workexpm">Experience</a>
+      </li>
+      <li class="nav-item">
         <a id="nav-contact" class="nav-link" href="#projectsm">Portfolio</a>
       </li>
     </ul>
@@ -57,7 +60,6 @@
     <div class="container">
       <div class="profi"><p><img id="profimg" src="images/me.png" alt="Picture of me" style="width:200px"></p></div>
   	<h1 class="motto" id="nametxt">Syed Azmain</h1>
-	<h2>Developer & Analyst</h2>
   	<div id="myNav" class="learnbutton">
   	  <a href="#aboutm" id="abtref"class="btn btn-primary"><i id="downi" class="fa fa-angle-double-down"></i></a>
   	</div>
@@ -117,11 +119,11 @@
       <div class="skillz"><h4 class="skillhead"><i  class='fas fa-code-branch' ></i> Development</h4></div>
 	    <h5 class="subskills"><i class='fas fa-terminal' style='font-size:22px'></i> Application Development</h5>
       <div class="softskills">
-	     <span class="chipp" >C++</span> <span class="chipp">Java</span> <span class="chipp">Oracle SQL</span>
+	     <span class="chipp" >C++</span> <span class="chipp">Java</span><span class="chipp">Python</span> <span class="chipp">Oracle SQL</span>
       </div>
 	    <h5 class="subskills"><i class='fas fa-code' style='font-size:22px'></i> Web Development </h5>
       <div class="softskills">
-	     <span class="chipp">HTML</span> <span class="chipp">CSS</span> <span class="chipp">Javascript</span> <span class="chipp">BootStrap</span> <span class="chipp">JQuery</span>
+	     <span class="chipp">HTML</span> <span class="chipp">CSS</span> <span class="chipp">JavaScript</span> <span class="chipp">Bootstrap</span> <span class="chipp">JQuery</span>
       </div>
    </div>
 </div>
@@ -166,6 +168,13 @@
 </div>
 
 <div class="trapezoid">
+<p id="workhead">Experience</p>
+</div>
+
+<div id="workexpm"></div>
+<div class="workexpcontainer"></div>
+<div class="trapezoid">
+
 <p id="projhead">Projects</p>
 </div>
 
@@ -210,64 +219,12 @@
 	     <a href="mailto:12syed17@gmail.com" class"emails"><i class="fa fa-envelope"></i></a>
        <a href="http://www.linkedin.com/in/syedazmain" class="linkedin"><i class="fa fa-linkedin"></i></a>
      </span>
-     <p id="copyright">&#169; 2018 Syed Azmain. All Rights Reserved.</p>
+     <p id="copyright">&#169; <span id="yearr"></span> Syed Azmain. All Rights Reserved.</p>
    </div>
  </footer>
 </div>
 
 </body>
 
-<script>
-function myFunction(x) {
-    x.classList.toggle("change");
-}
-
-jQuery(document).ready(function($){
-    $(window).scroll(function(){
-        if ($(this).scrollTop() > 50) {
-            $('#myBtn').fadeIn('slow');
-        } else {
-            $('#myBtn').fadeOut('slow');
-        }
-    });
-    $('#myBtn').click(function(){
-        $("html, body").animate({ scrollTop: 0 }, 500);
-        return false;
-    });
-});
-
-$(window).scroll(function(){
-  if ($(window).scrollTop() >= 10) {
-     $('.navbar').addClass('shadow-header');
-  }
-  else {
-     $('.navbar').removeClass('shadow-header');
-  }
-});
-
-$(document).ready(function(){
-$('body').scrollspy({target: ".navbar", offset: 100});
-  // Add smooth scrolling on all links inside the navbar
-  $("#myNav a").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 600, function(){
-
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    }  // End if
-  });
-});
-</script>
+<script src="scripts/app.js"></script>
 </html>
