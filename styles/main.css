@@ -117,9 +117,8 @@ border-bottom: 4px solid black;
   .column {
     width: 100%;
   }
-  .column #abtparas {
-    margin-left: 40px;
-    margin-right: 10px;
+  .column #abtparas{
+    margin-left: 30px;
   }
 
 }
