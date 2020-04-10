@@ -1,4 +1,5 @@
 const container = document.querySelector(".workexpcontainer");
+
 const coffees = [
   {
     company: "National Grid",
@@ -24,10 +25,8 @@ const showCoffees = () => {
   coffees.forEach(
     ({ company, position, dates, bullet1, bullet2, bullet3, bullet4 }) =>
     (output +=`
-      <div class="card-body">
-      <div class="container">
       <div class="row">
-      <div class="work col" style="width: 25rem;">
+      <div class="work col" style="width: 40rem;">
 
          <div id="work" class="allcards">
             <div class="skillz"><h3 class="projhead">${position}</h3></div>
@@ -41,8 +40,6 @@ const showCoffees = () => {
             </ul>
          </div>
          </div>
-      </div>
-      </div>
       </div>
       </div>
                 `)
