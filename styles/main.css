@@ -212,7 +212,7 @@ transition: all 0.2s cubic-bezier(0.5, 0.7, 0.7, 0.5);
 box-shadow: 10px 20px 35px rgba(0,0,0,0.25), 10px 20px 20px rgba(0,0,0,0.22);
 }
 .skillssection, .projectsection {
-  padding: 20px;
+  padding: 40px;
   padding-top: 90px;
   min-height: 500px;
   color: black;
@@ -220,7 +220,7 @@ box-shadow: 10px 20px 35px rgba(0,0,0,0.25), 10px 20px 20px rgba(0,0,0,0.22);
   background-color: #dcdcdc;
 }
 .allcards {
-padding: 40px;
+padding: 20px;
 border: 1px solid white;
 background-color: white;
 padding-bottom: 35px;
